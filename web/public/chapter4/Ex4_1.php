@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 $execute_class = new Ex4_1();
 print $execute_class->getEvaluation(78);
 
