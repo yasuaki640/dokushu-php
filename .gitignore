@@ -28,3 +28,4 @@ nbproject/
 etc/ssl/
 
 /web/public/chapter5/access.log
+/web/public/chapter5/access.csv
