@@ -18,5 +18,4 @@ foreach ($gen as $line) {
     print $line . '<br/>';
 }
 
-print "File has {$gen->getReturn()}
- lines.";
+print "File has {$gen->getReturn()} lines.";
