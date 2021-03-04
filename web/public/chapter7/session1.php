@@ -6,7 +6,7 @@
     <title>session data</title>
 </head>
 <body>
-<form method="POST" action="post2.php">
+<form method="POST" action="session2.php">
     <label for="mail">mail : </label>
     <input id="mail" type="text" name="name" size="40" value="<?= e($_SESSION['email'] ?? '') ?>"/>
     <input type="submit" value="send"/>
