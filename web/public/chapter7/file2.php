@@ -20,7 +20,7 @@ if ($_FILES['upfile']['error'] !== UPLOAD_ERR_OK) {
     $err_msg = 'ファイルの内容が画像ではありません';
 } else {
     $src = $_FILES['upfile']['tmp_name'];
-    $dest = mb_convert_encoding($_FILES['upfile']['name'], 'UTF-8');
+    $dest = $_FILES['upfile']['name'];
 
     if (!move_uploaded_file($src, 'doc/' . $dest)) {
         $err_msg = 'アップロード処理に失敗しました';
