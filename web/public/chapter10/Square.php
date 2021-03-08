@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-class Square
+class Square extends Figure
 {
-    public static function square(float $width, float $height): float
+    public function getArea(): float
     {
-        return $width * $height;
+        return $this->width * $this->height;
     }
 }
