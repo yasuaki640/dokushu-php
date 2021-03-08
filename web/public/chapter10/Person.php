@@ -7,6 +7,12 @@ class Person
 
     private string $lastName;
 
+    public function __construct($firstName, $lastName)
+    {
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+    }
+
     public function setFirstName(string $firstName): void
     {
         $this->firstName = $firstName;
