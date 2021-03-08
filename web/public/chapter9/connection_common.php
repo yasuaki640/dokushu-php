@@ -1,3 +1,3 @@
 <?php
-require_once './DbManager.php';
+require_once '../DbManager.php';
 $db = getDb();
