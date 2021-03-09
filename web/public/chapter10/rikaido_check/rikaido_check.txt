@@ -1,0 +1,36 @@
+①キーワード穴埋め
+1. アクセス修飾子 ok
+2. protected ok
+3. private ok
+4. static ok
+5.静的メソッド ok
+6.クラス x -> ::
+7.abstract
+8.中小メソッド
+9.中小クラス
+10.const
+11.名前空間
+
+②
+XOOOO ->XXOXX
+
+③
+Triangle implements -> extendsに変更
+Square implements -> extendsに変更
+__destructは__constructと間違えてる
+abstractってpublicだけじゃなかったっけ？
+
+④
+1.class
+2.callable
+3.get
+4.string
+5.array
+6.get
+7.string
+8.set
+9.key
+10.value
+11.__class__
+12.invoke
+13.debuginfo
